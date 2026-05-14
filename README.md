@@ -10,7 +10,7 @@ This repository contains a high-fidelity data engineering and analytics pipeline
 > **Problem Statement:** How can we transform fragmented digital payment data (WhatsApp, Paytm, NCMC) into a unified urban mobility strategy to reduce station congestion and operational overhead?
 
 
-(<img width="1681" height="773" alt="Screenshot (1032)" src="https://github.com/user-attachments/assets/b883fccc-35f2-40d8-bd3b-584c054ac5f6" />.png)
+<img width="1681" height="773" alt="Screenshot (1032)" src="https://github.com/user-attachments/assets/b883fccc-35f2-40d8-bd3b-584c054ac5f6" />
 
 ---
 
@@ -24,7 +24,7 @@ I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipe
     *   **Contextual Labeling:** Developed Boolean logic for `Is_Weekend` and categorical mapping for `Day_Name` to identify behavioral patterns.
 3.  **Analytical Layer:** Statistical thresholding (90th percentile) to identify "System Stress Points."
 
-(<img width="1034" height="655" alt="Screenshot (1035)" src="https://github.com/user-attachments/assets/002ac868-d887-44bc-915b-8e3dd18589e9" />.png)
+<img width="1034" height="655" alt="Screenshot (1035)" src="https://github.com/user-attachments/assets/002ac868-d887-44bc-915b-8e3dd18589e9" />
 ---
 
 ##  Data Schema & Dictionary
@@ -57,4 +57,4 @@ I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipe
 3. Run the notebook: `jupyter notebook NammaMetro_Analysis.ipynb`
 
 ---
-**Author:** Deekshitha D V | [LinkedIn][(YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/deekshithadv/) | [Kaggle Portfolio]([YOUR_KAGGLE_URL](https://www.kaggle.com/deekshithadv))
+**Author:** Deekshitha D V | (https://www.linkedin.com/in/deekshithadv/) | (https://www.kaggle.com/deekshithadv)

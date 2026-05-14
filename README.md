@@ -1,10 +1,5 @@
 #  NammaMetro-Data-Engine: Urban Mobility & Digital Payment Pipeline
 
-![Project Dashboard](<img width="1920" height="1080" alt="Screenshot (1031)" src="https://github.com/user-attachments/assets/3009bfb8-fc7d-414e-9790-671d289eb5f6" />.png)
-![Project Dashboard](<img width="1920" height="1080" alt="Screenshot (1032)" src="https://github.com/user-attachments/assets/ae747677-f12d-4129-8dfa-a58d16367311" />.png)
-![Project Dashboard](<img width="1920" height="1080" alt="Screenshot (1034)" src="https://github.com/user-attachments/assets/6580d776-9121-4d84-9328-71bad4002e15" />.png)
-
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
@@ -13,6 +8,9 @@
 This repository contains a high-fidelity data engineering and analytics pipeline designed to optimize **Bengaluru's NammaMetro** transit ecosystem. Unlike traditional descriptive reports, this project focuses on **feature engineering, data integrity, and prescriptive modeling** for 2026 ridership patterns.
 
 > **Problem Statement:** How can we transform fragmented digital payment data (WhatsApp, Paytm, NCMC) into a unified urban mobility strategy to reduce station congestion and operational overhead?
+
+
+(<img width="1681" height="773" alt="Screenshot (1032)" src="https://github.com/user-attachments/assets/b883fccc-35f2-40d8-bd3b-584c054ac5f6" />.png)
 
 ---
 
@@ -26,6 +24,7 @@ I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipe
     *   **Contextual Labeling:** Developed Boolean logic for `Is_Weekend` and categorical mapping for `Day_Name` to identify behavioral patterns.
 3.  **Analytical Layer:** Statistical thresholding (90th percentile) to identify "System Stress Points."
 
+(<img width="1034" height="655" alt="Screenshot (1035)" src="https://github.com/user-attachments/assets/002ac868-d887-44bc-915b-8e3dd18589e9" />.png)
 ---
 
 ##  Data Schema & Dictionary

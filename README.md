@@ -14,6 +14,13 @@ This repository contains a high-fidelity data engineering and analytics pipeline
 
 ---
 
+##  Engineering Workflow & Performance
+- **Optimization:** Used vectorized operations in Pandas for feature engineering, reducing transformation time by 40% compared to standard Python loops.
+- **Data Integrity:** Implemented a 'Health Check' block to handle null values and data type mismatches (NCMC vs Smart Card integers).
+- **Scalability:** The pipeline is designed to ingest daily BMRCL CSV updates with zero code modification.
+
+---
+
 ##  Data Architecture & Pipeline
 I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipeline**:
 
@@ -24,12 +31,6 @@ I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipe
     *   **Contextual Labeling:** Developed Boolean logic for `Is_Weekend` and categorical mapping for `Day_Name` to identify behavioral patterns.
 3.  **Analytical Layer:** Statistical thresholding (90th percentile) to identify "System Stress Points."
 
----
-
-##  Engineering Workflow & Performance
-- **Optimization:** Used vectorized operations in Pandas for feature engineering, reducing transformation time by 40% compared to standard Python loops.
-- **Data Integrity:** Implemented a 'Health Check' block to handle null values and data type mismatches (NCMC vs Smart Card integers).
-- **Scalability:** The pipeline is designed to ingest daily BMRCL CSV updates with zero code modification.
 
 <img width="1034" height="655" alt="Screenshot (1035)" src="https://github.com/user-attachments/assets/002ac868-d887-44bc-915b-8e3dd18589e9" />
 ---
@@ -64,4 +65,27 @@ I structured this project as an **End-to-End ETL (Extract, Transform, Load) Pipe
 3. Run the notebook: `jupyter notebook NammaMetro_Analysis.ipynb`
 
 ---
+
+### Running the Pipeline
+To run the automated data processing pipeline:
+1. Ensure the raw CSV is in the `data/` folder.
+2. Execute the script:
+   ```bash
+   python scripts/main.py
+
+---
+
+##  How to Reproduce & Run
+This repository is designed to be a "plug-and-play" data engine. To execute the automated pipeline:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/NammaMetro-Data-Engine.git
+   pip install -r requirements.txt
+   python scripts/main.py
+
+
+---
+
+
 **Author:** Deekshitha D V | (https://www.linkedin.com/in/deekshithadv/) | (https://www.kaggle.com/deekshithadv)
